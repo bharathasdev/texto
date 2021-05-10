@@ -48,7 +48,7 @@ function RootNavigator() {
         name="Root" 
         component={BottomTabNavigator} 
         options={{
-          title:"TEST",
+          title:"TEST 12-3",
           headerRight:()=>(
             <View style={{flexDirection:"row", width:60, justifyContent:"space-between", marginRight:10}}>
               <Octicons name="search" size={22} color={"white"}/>
