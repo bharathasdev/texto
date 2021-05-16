@@ -33,15 +33,16 @@ export type User = {
 export type Message = {
 
   id:String;
-  content:String
-  createdAt:String
+  content:String;
+  createdAt:String;
+  user:User;
 
 
 }
 
 export type ChatRoom = {
   id: string;
-  users: [User];
+  users: User[];
   lastMessage:Message
 };
 
